@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill</title>
+    <style>
+        body{
+            background-image: url(mountain\ and\ sea.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            font-size: 40px;
+            font-weight: bolder;
+            overflow:hidden;
+            height: 500hv;
+            font-weight: bolder;
+            overflow-y: auto;   /* scroll enable */
+            min-height: 100vh;
+        }
+        .left{
+            border: 3px solid black;
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 29px;
+            padding: 20px 10px;
+        }
+        .left img{
+            width: 200px;
+            border-radius: 40px;
+        }
+        .left div{
+            text-align: center;
+            font-size: 40px;
+        }
+        .left img{
+            filter: invert();
+        }
+        .mid{
+            border: 3px solid black;
+            display: block;
+            margin: 29px auto;
+            width: 40%;
+            top: 35px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            font-size: 40px;
+            display: inline-block;
+        }
+        .navbar li a{
+            color: tomato;
+            text-decoration: none;
+            padding: 32px 21px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: rgb(22, 240, 240);
+        }
+        .right{
+            height: 80px;
+            width: 200px ;
+            border: 3px solid black;
+            display: inline-block;
+            position: absolute;
+            right:20px ;
+            top: 29px;
+        }
+        .right img{
+            height: 50px;
+            width: 40px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .right img :hover{
+            transform: scale(1.1);
+        }
+        img :hover{
+            background-color: crimson;
+        }
+        .btn{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: wheat;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 22px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(23, 149, 233);
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+
+        <div class="left">
+        <img src="Bird (2).jfif" >
+        <div class="go">Air Strike</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+
+                <li><a href="#">About</a></li>
+                
+                <li><a href="#">Blog</a></li>
+                
+                <li><a href="#">Get Start</a></li>
+                
+                <li><a href="#">FAQs</a></li>
+            </ul>  
+        </div>
+
+        <div class="right">
+            <a href="https://www.youtube.com" target="_blank">
+            <img src="Youtube.png" alt="YouTube">
+            </a>
+            <a href="https://www.google.com" target="_blank">
+            <img src="Google.png" alt="">
+            </a>
+             <a href="https://www.facebook.com" target="_blank">
+            <img src="Facebook.png" alt="">
+            </a>
+        <!-- <button class="btn">Contact Sales</button>
+        <button class="btn">Sign up for free</button>
+        <button class="btn">Log in</button> -->
+        </div>
+
+    </header>
+    
+    
+</body>
+</html>
